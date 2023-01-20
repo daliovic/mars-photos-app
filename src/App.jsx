@@ -6,6 +6,7 @@ import SliderModal from './components/UI/SliderModal'
 import CustomParticles from './components/UI/CustomParticles'
 
 function App() {
+   // useAxios custom hook makes GET request to NASA Mars Photos API
   const { response, loading, error } = useAxios({
     method: 'GET',
     url: `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=n6Kv7lRc8yGAH9i8zT5MKGQA0mJOpPwDK1lpmBmO`,
