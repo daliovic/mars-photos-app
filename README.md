@@ -1,6 +1,6 @@
 # Mars Photos App
 This app fetches photos of Mars from the NASA API and displays them in a grid. When a photo is clicked on, a modal opens to show a larger version of the photo.
-[Working demo link](https://nasa-neos.onrender.com/)
+[Working demo link](https://mars-photos.onrender.com/)
 
 
 ## 🔭 Features
@@ -26,6 +26,8 @@ This app fetches photos of Mars from the NASA API and displays them in a grid. W
 - `axios`: A library for making HTTP requests.
 - `react-bootstrap`: That famous CSS framework
 - `react-particles-js`: A library for adding particles to the background of a website.
+- `vitest` : A fast unit test framework powered by Vite
+- `React Lottie`
 
 
 ## 
